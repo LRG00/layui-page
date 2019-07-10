@@ -314,7 +314,7 @@ layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'elemen
   ,carousel = layui.carousel //轮播
   ,laytpl = layui.laytpl //轮播
 
-  axios.get('http://149.28.161.252:3000/post/list')
+  axios.get('http://120.77.239.216:3000/post/list')
   .then(function (res) {
     console.log(res.data.data)
     var newArr = res.data.data.map(item => {
