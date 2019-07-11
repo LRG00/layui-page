@@ -77,9 +77,9 @@ body, input, button, textarea, select {
 .header .logo a {
 	display: block;
 	overflow: hidden;
-	height: 124px;
+	height: 60px;
 	line-height: 300px;
-	background: #393D49 url(../images/logo.png) no-repeat 7% 0%;
+	background: #393D49 url(../images/logo.png) no-repeat 7% 47%;
 }
 .header .logo a {
 	-moz-transition: all 0.8s ease-in-out;
