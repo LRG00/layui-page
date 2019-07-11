@@ -79,7 +79,7 @@ body, input, button, textarea, select {
 	overflow: hidden;
 	height: 124px;
 	line-height: 300px;
-	background: #3399CC url(../images/logo.png) no-repeat 4% 80%;
+	background: #393D49 url(../images/logo.png) no-repeat 7% 0%;
 }
 .header .logo a {
 	-moz-transition: all 0.8s ease-in-out;
@@ -113,7 +113,7 @@ body, input, button, textarea, select {
 	color: #FFFFFF;
 	font-size: 26px;
 	font-weight: 100;
-	background: #3399CC url(../images/logo.png) no-repeat -19% 59%;
+	background: #393D49 url(../images/logo.png) no-repeat -15% 50%;
 }
 .header-xs-logo .navbar-toggle {
 	padding: 0px;
@@ -190,6 +190,10 @@ body, input, button, textarea, select {
 .content-wrap {
 	width: 100%;
 	float: left;
+}
+.content-wrap .content .nav-bg{
+	background-size: cover;
+	background-image: url(../images/hero-slider-1.png);
 }
 .content {
 	margin-right: 320px;
@@ -275,7 +279,7 @@ body, input, button, textarea, select {
 	border-bottom: 2px solid #EEE;
 }
 .content .content-block .title strong {
-	border-bottom: 2px solid #3399CC;
+	border-bottom: 2px solid #393D49;
 	display: inline-block;
 	position: relative;
 	bottom: -2px;
@@ -341,7 +345,7 @@ body, input, button, textarea, select {
 	line-height: 34px;
 }
 .hot-content h3:hover {
-	background-color: #3399CC;
+	background-color: #393D49;
 	color: #FFFFCC;
 	opacity: 0.9;
 }
@@ -400,7 +404,7 @@ body, input, button, textarea, select {
 }
 .news-info .name a {
 	display: inline-block;
-	color: #3399CC;
+	color: #393D49;
 }
 .news-info .identity {
 	float: left;
@@ -453,7 +457,7 @@ body, input, button, textarea, select {
 }
 .news-info .look strong {
 	font-weight: normal;
-	color: #3399CC;
+	color: #393D49;
 }
  @media (max-width: 479px) {
 .news-list .news-img {
@@ -482,14 +486,14 @@ body, input, button, textarea, select {
 	line-height: 30px;
 	text-decoration: none;
 	font-size: 14px;
-	background: #3399CC;
+	background: #393D49;
 	color: #FFFFCC;
 	border-radius: 50px;
 	opacity: .9;
 }
 .news-more a:hover {
 	color: #FFF;
-	background: #3399CC;
+	background: #393D49;
 	opacity: 1;
 }
 .quotes {
@@ -505,7 +509,7 @@ body, input, button, textarea, select {
 }
 .content .news_header h2:hover {
 	cursor: pointer;
-	color: #3399CC;
+	color: #393D49;
 }
 .content .news_header ul {
 	margin-bottom: 30px;
@@ -522,11 +526,11 @@ body, input, button, textarea, select {
 	text-decoration: none;
 }
 .content .news_header ul li a:hover {
-	color: #3399CC;
+	color: #393D49;
 }
 .content .news_header ul li strong {
 	font-weight: normal;
-	color: #3399CC;
+	color: #393D49;
 	cursor: pointer;
 }
 /*文章正文样式开始*/
@@ -563,7 +567,7 @@ body, input, button, textarea, select {
 	text-decoration: none;
 }
 .content .reprint a:hover {
-	color: #3399CC;
+	color: #393D49;
 }
 /*文章 赞 样式开始*/
 .content .zambia {
@@ -571,7 +575,7 @@ body, input, button, textarea, select {
 	text-align: center;
 }
 .content .zambia a {
-	background: #3399CC;
+	background: #393D49;
 	position: relative;
 	padding: 12px 25px;
 	display: inline-block;
@@ -622,7 +626,7 @@ body, input, button, textarea, select {
 	text-decoration: none;
 }
 .content .page-nav a:hover {
-	color: #3399CC;
+	color: #393D49;
 }
 /*相关推荐样式开始*/
 .related-content {
@@ -666,7 +670,7 @@ body, input, button, textarea, select {
 	display: none;
 }
 .related-content h3:hover {
-	background-color: #3399CC;
+	background-color: #393D49;
 	color: #FFFFCC;
 	opacity: 0.9;
 }
@@ -718,7 +722,7 @@ textarea::-webkit-scrollbar-track-piece {
  display:none;
 }
 textarea::-webkit-scrollbar-thumb {
- background:#3399CC;
+ background:#393D49;
  border-radius:3px;
 }
 /*文章评论底部样式开始*/
@@ -739,7 +743,7 @@ textarea::-webkit-scrollbar-thumb {
 	text-decoration: none;
 }
 .content .comment .comment-form-text a:hover {
-	color: #3399CC;
+	color: #393D49;
 }
 
  @media (max-width: 380px) {
@@ -752,13 +756,13 @@ textarea::-webkit-scrollbar-thumb {
 }
 .content .comment .btn-comment {
 	border-radius: 0px;
-	background: #3399CC;
+	background: #393D49;
 	color: #FFF;
 	border: none;
 }
 .content .comment .btn-comment:hover {
 	background: #EEE;
-	color: #3399CC;
+	color: #393D49;
 	border: none;
 }
 /*文章评论内容样式开始*/
@@ -841,7 +845,7 @@ textarea::-webkit-scrollbar-thumb {
 	text-indent:0;
 }
 .content .about-content .line-title span{
-	color:#3399CC;
+	color:#393D49;
 	padding:0 3px;
 	font-weight:bold;
 	font-size:17px;
@@ -858,7 +862,7 @@ textarea::-webkit-scrollbar-thumb {
 	color:#777;
 }
 .content .contact-content p a:hover{
-	color:#3399CC;
+	color:#393D49;
 }
 /*友情链接样式开始*/
 .content .friendly-content div{
@@ -911,7 +915,7 @@ textarea::-webkit-scrollbar-thumb {
 	border-bottom: 2px solid #EEE;
 }
 .sidebar .sidebar-block .title strong {
-	border-bottom: 2px solid #3399CC;
+	border-bottom: 2px solid #393D49;
 	display: inline-block;
 	position: relative;
 	bottom: -2px;
@@ -946,11 +950,11 @@ textarea::-webkit-scrollbar-thumb {
 	cursor: default;
 }
 .sidebar .sentence:hover {
-	border: 1px solid #3399CC;
+	border: 1px solid #393D49;
 	cursor: pointer;
 }
 .sidebar .sentence strong {
-	background: #3399CC;
+	background: #393D49;
 	color: #FFF;
 	font-size: 14px;
 	font-weight: 100;
@@ -960,7 +964,7 @@ textarea::-webkit-scrollbar-thumb {
 	top: 0;
 }
 .sidebar .sentence h2 {
-	color: #3399CC;
+	color: #393D49;
 	font-size: 20px;
 	margin: 10px 0px;
 }
@@ -993,28 +997,28 @@ textarea::-webkit-scrollbar-thumb {
 	border-radius: 0px;
 }
 .form-control:focus {
-	border: #3399CC solid 1px;
+	border: #393D49 solid 1px;
 	box-shadow: none;
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 }
 .btn-search {
 	border-radius: 0px;
-	background: #3399CC;
+	background: #393D49;
 	color: #FFF;
-	border: #3399CC solid 1px;
+	border: #393D49 solid 1px;
 }
 .btn-search:hover {
 	background: #FFF;
-	color: #3399CC;
-	border: #3399CC solid 1px;
+	color: #393D49;
+	border: #393D49 solid 1px;
 }
 /*热门推荐样式开始*/
 .sidebar .recommend {
 	margin-top: 125px;/*由于搜索块绝对定位，所以必须加此属性*/
 }
 .sidebar .recommend ul li a:hover {
-	color: #3399CC;
+	color: #393D49;
 }
 .sidebar .recommend ul li a {
 	padding-right: 90px;
@@ -1079,13 +1083,7 @@ textarea::-webkit-scrollbar-thumb {
 	padding: 20px 0 30px 20px;
 	border-top: 2px solid #eee;
 	font-size: 12px;
-}
-.footer a {
-	color: #AAA;
-	text-decoration: none;
-}
-.footer a:hover {
-	color: #666;
+	text-align: center;
 }
  @media (max-width: 767px) {
 .footer {
@@ -1110,4 +1108,12 @@ textarea::-webkit-scrollbar-thumb {
 }
 .gotop:hover {
 	background: url(../images/backtop.png) no-repeat 0 -52px;
+}
+
+/* 覆盖layui样式 */
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+	background-color: #393D49 !important;
+}
+.layui-laypage a:hover {
+	color: #393D49 !important;
 }
