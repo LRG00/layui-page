@@ -1109,7 +1109,14 @@ textarea::-webkit-scrollbar-thumb {
 .gotop:hover {
 	background: url(../images/backtop.png) no-repeat 0 -52px;
 }
-
+pre {
+	overflow-x: auto !important;
+	white-space: pre-wrap !important;
+}
+/* pre:hover,
+pre:focus {
+  width: min-content !important;
+} */
 /* 覆盖layui样式 */
 .layui-laypage .layui-laypage-curr .layui-laypage-em {
 	background-color: #393D49 !important;
